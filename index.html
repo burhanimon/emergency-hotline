@@ -20,7 +20,7 @@
     <div class="nav-right">
       <div><i class="fa-solid fa-heart"></i> <span id="heartCount">0</span></div>
       <div><i class="fa-solid fa-coins"></i> <span id="coinCount">100</span></div>
-      <div><button class="copy-btn"></i> Copy</button></i> <span id="copyCount">0</span></div>
+      <div><button class="call-btn"></i> Copy</button>
     </div>
   </nav>
 
@@ -34,9 +34,7 @@
     <main>
         <!-- Main Section -->
   <main class="main-section">
-    <!-- Cards -->
     <div class="cards">
-
       <!-- Card 1 -->
       <div class="card">
         <div class="card-header">         
@@ -172,16 +170,16 @@
           <button class="call-btn"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
       </div>
-
-
-      
-
-
-
+      <!-- History -->
+    <div class="history">
+      <div class="history-header">
+        <h2><i class="fa-solid fa-clock-rotate-left"></i> Call History</h2>
+        <button id="clearHistory"><i class="fa-solid fa-trash"></i> Clear</button>
+      </div>
+      <ul id="historyList"></ul>
+    </div>
+  
     </main>
-    <footer>
-        
-    </footer>
-    
+    <script src="script.js"></script>   
 </body>
 </html>
